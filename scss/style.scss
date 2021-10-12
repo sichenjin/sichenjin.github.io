@@ -49,14 +49,14 @@ body {
 		overflow-x: hidden;
 		#colorlib-aside {
 			@include translateX(0);
-			width: 270px;
+			// width: 270px;
 			background: $white;
 			z-index: 999;
 			position: fixed;
 		}
 		#colorlib-main, .colorlib-nav-toggle {
 			top: 0;
-			@include translateX(270px);
+			// @include translateX(270px);
 		}
 	}
 }
